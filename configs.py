@@ -9,6 +9,6 @@ class Config:
     FSUB = getenv("FSUB", "PiroHackz")
     CHID = int(getenv("CHID", "-1001545900924"))
     SUDO = list(map(int, getenv("SUDO").split()))
-    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://rishbro:rishbro@cluster0.eiqoy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://Ayush1414:Ayush@1414@cluster0.ljvyokg.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
